@@ -8,3 +8,11 @@ namespace Ciencia {
             return masa * VELOCIDAD_DE_LA_LUZ * VELOCIDAD_DE_LA_LUZ;
         }
     }
+    namespace Quimica {
+        const double NUMERO_DE_AVOGADRO = 6.02214076e23; // mol^-1
+
+        double molesDeParticulas(double particulas) {
+            return particulas / NUMERO_DE_AVOGADRO;
+        }
+    }
+}
