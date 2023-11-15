@@ -35,3 +35,13 @@ namespace Matematicas {
         return sqrt(a);
     }
 }
+
+int main() {
+    std::cout << "Suma: " << Matematicas::suma(5, 3) << std::endl;
+    std::cout << "Resta: " << Matematicas::resta(5, 3) << std::endl;
+    std::cout << "Multiplicación: " << Matematicas::multiplicacion(5, 3) << std::endl;
+    std::cout << "División: " << Matematicas::division(5, 3) << std::endl;
+    std::cout << "Cuadrado: " << Matematicas::cuadrado(5) << std::endl;
+    std::cout << "Raíz: " << Matematicas::raiz(5) << std::endl;
+    return 0;
+}
