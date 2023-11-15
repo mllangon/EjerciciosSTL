@@ -10,4 +10,8 @@ namespace Matematicas{
     double resta(int a, int b){
         return a - b;
     }
+
+    double multiplicacion(int a, int b){
+        return a * b;
+    }
 }
