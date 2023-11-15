@@ -16,3 +16,15 @@ namespace Ciencia {
         }
     }
 }
+
+int main() {
+    double masa = 0.1; // en kilogramos
+    double energia = Ciencia::Fisica::energiaDeMasa(masa);
+    std::cout << "Energia de una masa de " << masa << " kg: " << energia << " joules" << std::endl;
+
+    double particulas = 1e24;
+    double moles = Ciencia::Quimica::molesDeParticulas(particulas);
+    std::cout << particulas << " particulas corresponden a " << moles << " moles" << std::endl;
+
+    return 0;
+}
