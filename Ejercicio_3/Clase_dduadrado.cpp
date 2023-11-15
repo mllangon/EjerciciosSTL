@@ -17,3 +17,4 @@ namespace Geometria {
             return 4 * lado;
         }
     };
+}
